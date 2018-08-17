@@ -1,0 +1,27 @@
+body {
+	text-align: center;
+}
+
+.content {
+	display: inline-block;
+	font-family: Helvetica, Arial, sans-serif;
+	width: 100%;
+}
+
+p {
+	text-align: justify;
+}
+
+ul {
+	text-align: justify;
+}
+
+.override-justify {
+	text-align: auto;
+}
+
+@media (min-width: 769px){
+	.content {
+		width: 75%;
+	}
+}
